@@ -82,7 +82,7 @@ Once the platform was active, I created a custom administrator account profile (
 
 ### Active Server Containers
 *Screenshot showing `sudo docker ps` verifying both the web portal and database containers running stably in the background.*
-![Docker Containers Status](https://placeholder.com)
+![Docker Containers Status](docker.png)
 
 ### IT Staff Admin Dashboard
 *Screenshot of your active osTicket Open Tickets panel showing user ticket queues.*
