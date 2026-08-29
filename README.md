@@ -70,12 +70,12 @@ Once the platform was active, I created a custom administrator account profile (
 ![Custom SLA Plan Configuration](sla-config.png)
 ### Workflow 2: Inbound Employee Ticket Simulation
 * Simulated an end-user scenario via the employee portal (`/index.php`) reporting a high-impact hardware failure: *"CEO's laptop displays black screen after spill. Needs immediate provisioning."*
-![Employee Ticket Submission](ticket1.png)
+![Employee Ticket Submission](newticket.png)
 ### Workflow 3: Ticket Triage & Fulfillment (IT Agent View)
 * Logged into the Staff Control Panel (`/scp`) as an IT Support Specialist.
 * Triaged the inbound hardware ticket, escalated the tier priority, and documented internal notes: *"Provisioned temporary backup corporate loaner laptop to user. Routing defective asset to hardware vendor for assessment."*
 * Formally updated the lifecycle flag status to **Closed (Resolved)**.
-
+![IT Agent Ticket Resolution](3.png)
 ---
 
 ## 📸 System Gallery & Verification
