@@ -67,7 +67,7 @@ Once the platform was active, I created a custom administrator account profile (
 
 ### Workflow 1: Custom SLA Configuration
 * Created a high-priority **Service Level Agreement (SLA)** plan labeled "Critical Outage" with a strict **1-Hour Grace Period** to simulate business-critical system failures.
-
+![Custom SLA Plan Configuration](sla-config.png)
 ### Workflow 2: Inbound Employee Ticket Simulation
 * Simulated an end-user scenario via the employee portal (`/index.php`) reporting a high-impact hardware failure: *"CEO's laptop displays black screen after spill. Needs immediate provisioning."*
 
