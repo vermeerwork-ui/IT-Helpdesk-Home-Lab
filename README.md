@@ -86,7 +86,7 @@ Once the platform was active, I created a custom administrator account profile (
 
 ### IT Staff Admin Dashboard
 *Screenshot of your active osTicket Open Tickets panel showing user ticket queues.*
-![osTicket Staff Panel Dashboard](https://placeholder.com)
+![osTicket Staff Panel Dashboard](dashboard)
 
 ---
 
@@ -96,9 +96,3 @@ Building this project developed deep foundational competencies in:
 * Orchestrating multi-container architecture using **Docker & Docker Compose** plugins.
 * Modifying localized file security profiles (`chmod`, `chown`) within a Linux terminal framework.
 * Operating core ticketing database platforms used globally in technical support environments.
-
----
-**Contact Details:**  
-* **Name:** [Your Full Name]  
-* **LinkedIn:** [Insert LinkedIn Profile Link]  
-* **Location:** Dolores, Taytay, Rizal, Philippines 🇵🇭
