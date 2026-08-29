@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: osticket_mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_USER=osticket
+      - MYSQL_PASSWORD=secret
+      - MYSQL_DATABASE=osticket
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  osticket:
+    image: devinsolutions/osticket:latest
+    container_name: real-helpdesk
+    restart: always
+    ports:
+      - "8888:80"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=osticket
+      - MYSQL_PASSWORD=secret
+      - MYSQL_DATABASE=osticket
+    links:
+      - mysql:mysql
+    depends_on:
+      - mysql
+
+volumes:
+  mysql_data:
